@@ -1,0 +1,95 @@
+/* Header.css */
+.headerGlavniKontejner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.leviKontejner, .desniKontejner {
+    display: flex;
+    align-items: center;
+}
+.leviKontejner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+.desniKontejner{
+    width: 70%;
+    padding: 0 5% 0 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+   
+    display: flex;
+    justify-content: center;
+}
+.menuIkonica, .logo, .srcIkonica, .headerIkonice div {
+    margin-right: 15px;
+    padding: 3px 2px;
+}
+.menuIkonica,  .srcIkonica, .headerIkonice {
+    font-size: 20px;
+    cursor: pointer;
+}
+.menuIkonica :hover{
+    transform: scale(0.9);
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 12px;
+    color: #333;
+}
+
+.src {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:4px;
+    background-color: #d7d7d7;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.src input {
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    width: 250px;
+    background-color: transparent;
+}
+
+.srcIkonica {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerIkonice {
+    display: flex;
+    align-items: center;
+}
+
+.headerIkonice div {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #333;
+}
+
+.headerIkonice div:hover {
+    color: #000;
+}

@@ -1,0 +1,46 @@
+.heroGlavniKontejner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+  }
+  
+  .heroGlavniKontejner .leviKontejner,.heroGlavniKontejner .desniKontejner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tekst p {
+    cursor: pointer;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .tekst p.selected {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .kursor {
+    display: flex;
+    align-items: center;
+  }
+  
+  .levaStrelica, .desnaStrelica {
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  .slajderSlika img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .linijaDoSlika {
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
